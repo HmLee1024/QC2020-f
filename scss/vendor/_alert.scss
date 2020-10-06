@@ -1,7 +1,13 @@
 $alert-colors: (
-    "alert-primary": $sky-alert
-    "alert-secondary": $grape-alert
-    "alert-success": $sunset-alert
-    "alert-danger": $banana-alert
-    "alert-warning": $leaf-alert
-)
+    "alert-primary": $sky,
+    "alert-secondary": $grape,
+    "alert-success": $sunset,
+    "alert-danger": $banana,
+    "alert-warning": $leaf
+);
+
+@each $class, $alert-color in alert-colors {
+    .alert-#{$class} {
+        @include alert-color($alert-color);
+    }
+}

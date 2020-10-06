@@ -1,0 +1,28 @@
+// Optical(Alpha value)
+$alpha: 0.3;
+// default color
+$sky: rgb(32, 109, 192) !default;
+$grape: rgb(110,65,193) !default;
+$sunset: rgb(221,53,69) !default;
+$banana: rgb(255,193,6) !default;
+$leaf: rgb(40,167,69) !default;
+// Gray
+$mouse: rgb(108,117,125) !default;
+$darkmouse: rgb(52,58,64) !default;
+// Black & White
+$snow: rgb(255,255,255) !default;
+$night: rgb(0,0,0) !default;
+// background color
+$bg-sky: rgba($sky,$alpha) !default;
+$bg-grape: rgba($grape,$alpha) !default;
+$bg-sunset: rgba($sunset,$alpha) !default;
+$bg-banana: rgba($banana,$alpha) !default;
+$bg-leaf: rgba($leaf,$alpha) !default;
+//default color array
+$default-color: (
+    'sky': $sky,
+    'grape': $grape,
+    'sunset': $sunset,
+    'banana': $banana,
+    'leaf': $leaf
+);
