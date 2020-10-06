@@ -1,0 +1,4 @@
+@mixin alert-color($alert-color) {
+    background-color: lighten($color, 30%);
+    border-radius: 5px;
+}
